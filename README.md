@@ -6,15 +6,33 @@ This is a [Solidity](https://soliditylang.org/) file which is to be run in [Remi
 
 We can compile the contract then use [Remix MX (Merge)](https://remix-ide.readthedocs.io/en/latest/run.html#environment), formerly known as Javascript MX, to test the code with some mock transactions. Please see screenshots below.
 
-![initial contract](Execution_Results/initial_balance.png)
-
-We can see above that our balance is 0 Ether. Below the balance, we've provided two accounts (our joint accounts) that will be able to withdraw from the contract address.  We can see that our function to set accounts works accordingly by verifying via the logs, which can be seen below.
-
 Initial Balance
+![](/Execution_Results/1proof_of_first_deployment.png)
+![](/Execution_Results/2beginning_balance.png)
+
+Set mock account addresses
+![](/Execution_Results/3set_accounts.png)
 
 Test 1: Deposit 1 Ether as Wei
+![](/Execution_Results/4deposit_1.png)
+![](/Execution_Results/5contractBalance_1.png)
 
 Test 2: Deposit 10 Ether as Wei
+![](/Execution_Results/6deposit_2.png)
+![](/Execution_Results/7contractBalance_2.png)
+
+Test 3: Deposit 5 Ether 
+![](/Execution_Results/8deposit_3.png)
+![](/Execution_Results/9contractBalance_3.png)
+
+Test 4: Withdraw 5 Ether and send to Account #1
+![](/Execution_Results/10withdrawal_1.png)
+![](/Execution_Results/11contractBalance_4.png)
+
+Test 5: Withdraw 10 Ether and send to Account #2
+![](/Execution_Results/12withdrawal_2.png)
+![](/Execution_Results/13contractBalance_5.png)
+
 
 ---
 ## 1. Installation
